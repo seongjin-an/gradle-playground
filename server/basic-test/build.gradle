@@ -1,0 +1,9 @@
+
+
+dependencies {
+    implementation("$boot:spring-boot-starter-web")
+//    compileClasspath(":comp-common-utils")
+//    compileOnly(":comp-common-utils")
+    implementation project(":comp-common-utils")
+}
+
